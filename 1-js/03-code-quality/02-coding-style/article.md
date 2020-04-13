@@ -86,7 +86,7 @@ if (condition) {
 ```js
 // 回勾引号 ` 允许将字符串拆分为多行
 let str = `
-  Ecma International's TC39 is a group of JavaScript developers,
+  ECMA International's TC39 is a group of JavaScript developers,
   implementers, academics, and more, collaborating with the community
   to maintain and evolve the definition of JavaScript.
 `;
@@ -225,7 +225,7 @@ function pow(x, n) {
 
 ## 函数位置
 
-如果你正在写几个“辅助类”的函数和一些使用它们的代码，那么有三种方式来组织这些函数。
+如果你正在写几个“辅助”函数和一些使用它们的代码，那么有三种方式来组织这些函数。
 
 1. 在调用这些函数的代码的 **上方** 声明这些函数：
 
@@ -256,7 +256,7 @@ function pow(x, n) {
     setHandler(elem);
     walkAround();
 
-    // --- *!*辅助类函数*/!* ---
+    // --- *!*辅助函数*/!* ---
     function createElement() {
       ...
     }
